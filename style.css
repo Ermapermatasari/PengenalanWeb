@@ -1,0 +1,121 @@
+* {
+  text-decoration: none;
+}
+
+body {
+  font-size: 20px;
+  height: 3000px;
+  margin: 0;
+  padding: 0;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: silver;
+}
+.BoxModel {
+  background-color: white;
+  border: 2px solid rgb(159, 159, 159);
+}
+.nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.nav li {
+  float: left;
+}
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+.nav li a:hover {
+  background-color: #111;
+  text-decoration: underline;
+}
+
+.nav li .active {
+  background-color: #0000ff;
+}
+
+.kom {
+  width: 1000px;
+}
+
+/* Latihan-latihan */
+
+#checkbox {
+  display: inline-block;
+}
+
+.menu {
+  list-style-type: none;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  top: 8%;
+  left: 0;
+  right: 0;
+  background-color: #00ff1e;
+  width: 20%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  display: none;
+  padding-bottom: 40px;
+}
+
+.menu li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  border: 0;
+  padding: 10px 10px;
+}
+
+.menu li a:hover {
+  background-color: black;
+  color: white;
+}
+
+.latihan {
+  position: relative;
+}
+
+.dropdown {
+  list-style: none;
+  background-color: rgb(83, 79, 223);
+  padding: 5px 8px;
+  position: absolute; /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 10px;
+  top: 40px;
+}
+
+.dropdown li {
+  padding: 0;
+  width: 8em;
+  text-align: center;
+  margin: 0;
+}
+
+.dropdown li a {
+  color: #000000;
+  font-size: 18px;
+}
+
+.dropdown li a:hover {
+  background-color: #000000;
+  border-radius: 10px;
+  color: white;
+}
+
+.latihan:hover .dropdown {
+  display: block;
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quiz 6</title>
+</head>
+<body>
+<h1 align="center">Form Pendaftaran Mahasiswa Baru</h1>
+	<table bgcolor="blue" align="center" border="1" width="80%" >
+		<tr>
+			<td bgcolor="blue"> Data Diri</td>
+		</tr>
+	</table>
+	<table align="center" width="80%">
+	<form>
+		<tr >
+			<td><label for="nama">Nama Lengkap:</label><td>
+			<td><label for="NIK">Nomor Identitas(NIK):</label><td>
+			
+		</tr>
+		<tr>
+			<td><input type="text" id="Nama Lengkap" name="Nama Lengkap" placeholder="masukan nama lengkap" size="60"></td>
+			<td><input type="text" id="NIK" name="NIK"placeholder="masukan nomor identitas" ></td>
+
+		</tr>
+		<tr>
+			<td><label for="nama">Tempat Lahir:</label></td>
+			<td><label for="nama">Tanggal Lahir:</label></td>
+			<td><label for="nama">Jenis kelamin:</label></td>
+		</tr>
+		<tr>
+			<td><input type="text" id="Tempat Lahir" name="Tempat Lahir" size="40"></td>
+			<td><input type="text" id="Tanggal Lahir" name="Tanggal Lahir" size="40"></td>
+			<td><input type="radio" id="laki-laki" name="fav_language" value="laki-laki"></td>
+			<td><label for="laki-laki">laki-laki</label></td>
+			<td><input type="radio" id="perempuan" name="fav_language" value="perempuan"></td>
+			<td><label for="perempuan">perempuan</label></td>
+
+		</tr>
+		<tr>
+			<td><label for="nama">Kewarganegaraan:</label></td>
+			<td><label for="nama">Agama:</label></td>
+			<td><label for="nama">Nama Ibu Kandung:</label><td>
+
+		</tr>
+		<tr>
+			<td>
+			
+			<select id="kewarganegaraan" name="Kewarganegaraan">
+			<option value="WNI">WNI</option>
+			<option value="WNA">WNA</option>
+	
+			</select></td>
+			<td>
+			<select id="kewarganegaraan" name="Kewarganegaraan">
+			<option value="KRISTEN">KRISTEN</option>
+			<option value="KATOLIK">KATOLIK</option>
+			<option value="ISLAM">ISLAM</option>
+	
+			</select>
+	
+
+			</td>
+			<td><input type="text" id="Nama Ibu Kandung" name="Nama Ibu Kandung" size="20"></td>
+
+		</tr>
+		<tr>
+			
+			<td><label for="nama">email:</label></td>
+			<td><label for="nama">No.Telp:</label></td>
+			
+		</tr>
+		<tr>
+			<td><input type="text" id="email" name="email" size="20"></td>
+			<td><input type="text" id="No.Telp" name="No.Telp" size="20"></td>
+		</tr>
+		<tr>
+			<td><label for="nama">Hobby:</label></td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="vehiclel" name="vehiclel" value="sepak bola">
+		     <label for="vehiclel">sepak bola</label>
+		     <input type="checkbox" id="vehiclel" name="vehiclel" value="menyayi">
+			<label for="vehiclel">menyanyi</label>
+			<input type="checkbox" id="vehiclel" name="vehiclel" value="musik">
+			<label for="vehiclel">musik</label></td>
+			<td><input type="text" id="lainnya" name="lainnya" size="20"></td>
+		</tr>
+		
+		
+		</form>	
+	</table>
+
+	
+	<table bgcolor="blue" align="center" border="1" width="80%" >
+		<tr >
+			<td>Data Alamat Asal</td>
+		</tr>
+
+	</table>
+	<table align="center" width="80%">
+		<form>
+			<tr>
+				<td><label for="nama">Alamat:</label></td>
+				<td><label for="nama">Kode Pos:</label><td>
+
+			</tr>
+			<tr>
+				<td><textarea id="alamat" name="alamat"></textarea></td>
+				<td><input type="text" id="Kode Pos" name="Kode Pos" placeholder="kode pos"></input></td>
+			</tr>
+			
+		</form>
+	</table><br>
+	<table bgcolor="blue" align="center" border="1" width="80%" >
+		<tr >
+			<td>Data Pendidikan</td>
+		</tr>
+
+	</table>
+	<table align="center" width="80%">
+		<form>
+			<tr>
+				<td><label for="nama">Pendidikan Terakhir:</label></td>
+				<td><label for="nama">Nama sekolah:</label></td>
+				<td><label for="nama">Rata-rata Nilai Kelas 12:</label></td>
+
+			</tr>
+			<tr>
+				<td>
+			
+					<select id="Pendidikan Terakhir" name="Pendidikan Terakhir">
+				
+						<option value="SMA">SMA-IPA</option>
+						<option value="SMA">SMA-IPS</option>
+						<option value="SMA">SMA-BAHASA</option>
+						<option value="SMP">SMK</option>
+
+	
+					</select></td>
+
+				<td><input type="text" id="Nama Sekolah" name="Nama Sekolah" ></td>
+				<td><input type="text" id="Rata-rata Nilai Kelas 12" name="Rata-rata Nilai Kelas 12" ></td>
+
+			</tr>
+
+		</form>
+
+	</table>
+	<table bgcolor="blue" align="center" border="1" width="80%" >
+		<tr >
+			<td>Pilihan Program Studi</td>
+		</tr>
+
+	</table>
+	<table align="center" width="80%">
+		<form >
+			<tr>
+				<td><label for="nama">FEBH:</label></td>
+				<td><label for="nama">FKIP:</label></td>
+				<td><label for="nama">Fakultas Sains Dan Teknologi:</label></td>
+
+			</tr>
+			<tr >
+				
+				<td >
+					
+					<select id="FEBH" name="FEBH">
+				
+						<option value="Hukum">Hukum</option>
+						<option value="SMA">Manajemen</option>
+						<option value="SMA">Ekonomi Pembangungan</option>
+						
+
+	
+					</select>
+
+				</td>
+				<td>
+					
+					<select id="FEBH" name="FEBH">
+				
+						<option value="Hukum">Pendidikan Biologi</option>
+						<option value="SMA">Pendidikan Matematika</option>
+						
+
+	
+					</select>
+
+				</td>
+				<td>
+					
+					<select id="FEBH" name="FEBH">
+				
+						<option value="Hukum">Teknik Informatika</option>
+						<option value="SMA">Agribisnis</option>
+						<option value="SMA">Agroteknologi</option>
+						<option value="SMP">peternakan</option>
+						<option value="SMP">Teknologi Hasil Perikanan</option>
+
+	
+					</select>
+
+				</td>
+			</tr>
+
+		</form>
+
+	</table><br>
+	<table align="center" width="80%">
+		<form>
+			<tr>
+				<td ><input type="Submit" name="submit" style="background-color: yellow;" value="submit" onclick="alert('Terima kasih atas tanggapan anda')">
+				<input type="Reset" name="reset" style="background-color: red;" value="reset"></td>
+			</tr><td>
+				
+		</form>
+
+	</table>
+
+
+
+</body>
+</html>

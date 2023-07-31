@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>galery responsif</title>
+    <style>
+        div.galery {
+            border: 1px solid #ccc;
+        }
+        div.galery:hover {
+            border: 1px solid #777;
+        }
+        div.galery img {
+            width: 100%;
+            height: auto;
+        }
+
+        .responsive{
+            padding: 0 6px;
+            float: left;
+            width: 24.9999%;
+        }
+        @media only screen and ( max-width= 100px) {
+            .responsive{
+                width: 100%;
+                width: 6px 0;
+            }
+        }
+        @media only screen and ( max-width= 100px) {
+            .responsive{
+                width: 100%;
+            }
+        }
+
+        .clearfix  ::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Responsive Image Gallery</h2>
+    <h4>Resize the browser window to see the effect.</h4>
+
+    <div class="responsive">
+        <div class="galery">
+            <a  target="_blank" href="gambar1.png">
+                <img src="gambar1.png" alt="cinque terre" width="300" height="100">
+            </a>
+            <div class="desc">Add a description of the image</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="galery">
+            <a  target="_blank" href="gambar2.png">
+                <img src="gambar2.png" alt="cinque terre" width="300" height="100">
+            </a>
+            <div class="desc">Add a description of the image</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="galery">
+            <a  target="_blank" href="foto erma.jpg">
+                <img src="foto erma.jpg" alt="cinque terre" width="300" height="100">
+            </a>
+            <div class="desc">Add a description of the image</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="galery">
+            <a  target="_blank" href="gambar computer.png">
+                <img src="gambar computer.png" alt="cinque terre" width="300" height="100">
+            </a>
+            <div class="desc">Add a description of the image</div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div style="padding: 6px;">
+    <p>This example use media queries to re-arrange the images on different</p>
+    <p>You will learn more about media queries and responsive web design</p>
+</div>
+</body>
+</html>

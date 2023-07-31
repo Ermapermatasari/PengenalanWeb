@@ -1,0 +1,39 @@
+.content {
+    width: 1520px;
+    height: 1340px;
+    background-color: lightcoral;
+    border: 2px;
+   
+}
+
+p {
+    width:  1200px;
+    height: 110px;
+    background-color: lightcoral;
+    border: 2px;
+    margin-left: 70px;
+    
+}
+.leftbar{
+    background-color: grey;
+    width: 25%;
+    position: none;
+    top: 0px;
+    padding: 5px;
+}
+
+.leftbar h3{
+
+    color: white;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-family: arial;
+}
+
+.leftbar h4 li:hover a{
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+
+}

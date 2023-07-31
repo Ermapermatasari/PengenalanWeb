@@ -1,0 +1,175 @@
+/* style utk semua halaman web */
+.div1{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    background-color: wheat;
+    .dies{
+        width: 200px;
+        height: 150px;
+        float: right;   
+    }
+
+    .logo{
+        width: 200px;
+        height: 125px;
+        float: left;
+    }
+}
+
+
+
+
+.active {
+    background: rgb(7, 43, 46);
+    padding-left: 50px;
+    transition: .5s ease;
+}
+.sidebar {
+    position: fixed;
+    left: -250px;
+    width: 225px;
+    height: 100%;
+    background: rgb(4, 69, 93);
+    margin: 0;
+    padding: 0;
+    transition: .5s ease;
+}
+
+.sidebar header {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: rgb(10, 155, 168);
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul a {
+    text-decoration-line: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: rgb(17, 1, 1);
+    box-sizing: border-box;
+    border-top: 1px solid rgba(68, 66, 66, 0.378);
+    border-bottom:  1px solid black;
+    transition: .5s;
+}
+
+ul li:hover a {
+    padding-left: 50px;
+   
+}
+
+#check {
+    display: none;
+}
+
+label #menu, label #cancel {
+    position: absolute;
+    cursor: pointer;
+    background: rgb(25, 129, 138);
+    border-radius: 3px;
+}
+
+label #menu {
+    left: 10px;
+    top: 150px;
+    font-size: 20px;
+    color: black;
+    padding: 2px 6px;
+    transition: all .5s ease;
+    
+}
+
+label #cancel {
+    left: 50px;
+    z-index: 11;
+    left: -180px;
+    top: 10px;
+    font-size: 20px;
+    color: rgb(19, 98, 106);;
+    padding: 1px 9px;
+    transition: all .5s ease;
+}
+
+#check:checked ~ .sidebar {
+    left: 0;
+}
+
+#check:checked ~ label #menu {
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~ label #cancel {
+    left: 190px;
+}
+
+#check:checked ~  section {
+    margin-left: 220px;
+    transition: all .5s ease;
+}
+
+#cancel:checked ~  section {
+    margin-right: 220px;
+    transition: all .5s ease;
+}
+
+/* Halaman Form Daftar */
+.div_formDaftar{
+    background-color: rgb(19, 194, 194);
+    padding: 1px;
+}
+
+input[type=submit]{
+    background-color: green;
+}
+input[type=reset]{
+    background-color: maroon;
+}
+
+.formDaftar{
+    border: 1px solid black;
+    padding:s 2px;
+    background-color: rgb(247, 225, 196);
+}
+    input, select, textarea {
+    background-color: gainsboro;
+}
+
+/* Halaman CV */
+.tbl_cv{
+    width: 90%;
+    padding: 0.5cms;
+    border: 2px solid #000;
+    background-color: rgb(243, 240, 240);
+    
+}
+.img_cv{
+    width:300px;
+    height: 350px
+}
+/* Halaman Pembayaran */
+.div_bayar{
+    width: 93%;
+    text-align: center;
+}
+.logo_bayar{
+    width: 150px;
+    float: left;
+}
+.dies_bayar{
+    width: 150px;
+    float: right;
+}
+
+
